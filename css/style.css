@@ -1,0 +1,279 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body{background-color: #212121; font-family: 'open sans';}
+
+
+p{ color: aquamarine}
+
+.start
+{
+	
+	margin-top: 30px;
+	color: aquamarine;
+	text-align: center;
+}
+
+h1
+{
+	font-size:250%;
+}
+.container
+{
+	margin: auto;
+	margin-top: 50px;
+	width: 460px;
+	height: 460px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-wrap: wrap;
+	
+
+
+}
+
+.xo1
+{
+	width: 150px;
+	height: 150px;
+	background-color:#212121;
+	border-color: transparent;
+		color: whitesmoke;
+	font-size:600%;
+	font-size:600%;
+	 transition: all .3s ease-in-out;
+
+}
+
+.xo1:hover
+{
+	transform: translate(-5px,-5px);
+	
+	box-shadow: 0 0 20px black;
+}
+
+.xo2
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+}
+
+
+.xo2:hover
+{
+	transform: translate(0,-5px);
+	
+	box-shadow: 0 0 20px black;
+}
+
+
+.xo3
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+}
+
+.xo3:hover
+{
+	transform: translate(5px,-5px);
+	
+	box-shadow: 0 0 20px black;
+}
+
+
+.xo4
+{
+	width: 150px;
+	height: 150px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	 transition: all .3s ease-in-out;
+
+}
+
+.xo4:hover
+{
+	transform: translateX(-5px);
+	box-shadow: 0 0 20px black;
+}
+
+.xo5
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+}
+
+.xo5:hover
+{
+	transform: none;
+	
+	box-shadow: 0 0 30px black;
+}
+
+
+
+.xo6
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	border-bottom-color: transparent;
+	transition: all .3s ease-in-out;
+
+
+}
+
+.xo6:hover
+{
+	transform: translate(5px,0);
+	
+	box-shadow: 0 0 20px black;
+}
+
+
+
+.xo7
+{
+	width: 150px;
+	height: 150px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+}
+
+.xo7:hover
+{
+	transform: translate(-5px,5px);
+	
+	box-shadow: 0 0 20px black;;
+}
+
+
+
+.xo8
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+}
+
+.xo8:hover
+{
+	transform: translate(0,5px);
+	
+	box-shadow: 0 0 20px black;;
+}
+
+
+
+.xo9
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: #212121;
+	border-color:transparent;
+	color: whitesmoke;
+	font-size:600%;
+	transition: all .3s ease-in-out;
+
+
+}
+.xo9:hover
+{
+	transform: translate(5px,5px);
+	
+	box-shadow: 0 0 20px black;;
+}
+
+
+
+
+
+
+
+
+*:focus
+{
+	outline: none;
+}
+
+
+
+#won
+{
+	font-size: 250%;
+	position:static;
+	width: 460px;
+	text-align: center;
+	background-color: transparent;
+	margin: auto;
+}
+
+.begin
+{
+	width: 80px;
+	height: 40px;
+	background-color: transparent;
+	border-color: transparent;
+	border-radius: 5px;
+	background:  -webkit-linear-gradient(top, aquamarine -20%, dimgrey 100%) ;
+	transition: all .3s ease-in-out;
+}
+
+
+.begin:hover
+{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px;
+	
+	
+}
+
+.begin:active
+{
+	background:  -webkit-linear-gradient(bottom, aquamarine -20%, dimgrey 100%) ;
+	transform: translateY(5px);
+}
+
