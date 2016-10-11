@@ -11,7 +11,15 @@ $(document).ready(function(){
    });
 
 
-	
+//Adding sound effects	
+var audio = $("#hover")[0];
+var audio2 = $("#click")[0];
+$(".begin").mouseenter(function() {
+  audio.play();
+});
+$(".reset").mouseenter(function() {
+  audio.play();
+});	
 	
 	
 	
@@ -29,6 +37,9 @@ $(".xo1").click(function(){
 				{	$("#won p").append("YOU LOST");
 					$(".reset").fadeIn();
 				}
+				
+			audio2.play();
+		
 		}
 });
 
@@ -43,6 +54,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	
@@ -57,6 +70,8 @@ $(".xo1").click(function(){
 				{	$("#won p").append("YOU LOST");
 					$(".reset").fadeIn();
 				}
+				
+			audio2.play();
 		}
 });
 	$(".xo4").click(function(){
@@ -70,6 +85,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	
@@ -84,6 +101,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	
@@ -98,6 +117,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	
@@ -113,6 +134,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	$(".xo8").click(function(){
@@ -126,6 +149,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 	
@@ -140,6 +165,8 @@ $(".xo1").click(function(){
 			{	$("#won p").append("YOU LOST");
 				$(".reset").fadeIn();
 			}
+				
+			audio2.play();
 		}
 });
 
